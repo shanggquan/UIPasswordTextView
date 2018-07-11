@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14090AA820F5B4AA0088FD87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14090AA720F5B4AA0088FD87 /* AppDelegate.m */; };
+		14090AAB20F5B4AA0088FD87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14090AAA20F5B4AA0088FD87 /* ViewController.m */; };
+		14090AAE20F5B4AA0088FD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14090AAC20F5B4AA0088FD87 /* Main.storyboard */; };
+		14090AB020F5B4AF0088FD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14090AAF20F5B4AF0088FD87 /* Assets.xcassets */; };
+		14090AB320F5B4AF0088FD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14090AB120F5B4AF0088FD87 /* LaunchScreen.storyboard */; };
+		14090AB620F5B4AF0088FD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14090AB520F5B4AF0088FD87 /* main.m */; };
+		14090AC520F5B5650088FD87 /* UIPasswordTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14090ABE20F5B5640088FD87 /* UIPasswordTextView.m */; };
+		14090AC620F5B5650088FD87 /* UITextViewPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 14090AC020F5B5640088FD87 /* UITextViewPlaceholder.m */; };
+		14090AC720F5B5650088FD87 /* UIAutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14090AC320F5B5650088FD87 /* UIAutoHeightTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14090AA320F5B4AA0088FD87 /* UIPasswordViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPasswordViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14090AA620F5B4AA0088FD87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14090AA720F5B4AA0088FD87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14090AA920F5B4AA0088FD87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14090AAA20F5B4AA0088FD87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14090AAD20F5B4AA0088FD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14090AAF20F5B4AF0088FD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14090AB220F5B4AF0088FD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14090AB420F5B4AF0088FD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14090AB520F5B4AF0088FD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14090ABD20F5B5640088FD87 /* UIPasswordTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPasswordTextView.h; sourceTree = "<group>"; };
+		14090ABE20F5B5640088FD87 /* UIPasswordTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPasswordTextView.m; sourceTree = "<group>"; };
+		14090AC020F5B5640088FD87 /* UITextViewPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewPlaceholder.m; sourceTree = "<group>"; };
+		14090AC120F5B5640088FD87 /* UITextViewPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewPlaceholder.h; sourceTree = "<group>"; };
+		14090AC320F5B5650088FD87 /* UIAutoHeightTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAutoHeightTextView.m; sourceTree = "<group>"; };
+		14090AC420F5B5650088FD87 /* UIAutoHeightTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAutoHeightTextView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14090AA020F5B4AA0088FD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14090A9A20F5B4AA0088FD87 = {
+			isa = PBXGroup;
+			children = (
+				14090AA520F5B4AA0088FD87 /* UIPasswordViewDemo */,
+				14090AA420F5B4AA0088FD87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14090AA420F5B4AA0088FD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14090AA320F5B4AA0088FD87 /* UIPasswordViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14090AA520F5B4AA0088FD87 /* UIPasswordViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				14090AA620F5B4AA0088FD87 /* AppDelegate.h */,
+				14090AA720F5B4AA0088FD87 /* AppDelegate.m */,
+				14090AA920F5B4AA0088FD87 /* ViewController.h */,
+				14090AAA20F5B4AA0088FD87 /* ViewController.m */,
+				14090AAC20F5B4AA0088FD87 /* Main.storyboard */,
+				14090ABF20F5B5640088FD87 /* UITextViewPlaceholder */,
+				14090AC220F5B5650088FD87 /* UIAutoHeightTextView */,
+				14090ABC20F5B5640088FD87 /* UIPasswordTextView */,
+				14090AAF20F5B4AF0088FD87 /* Assets.xcassets */,
+				14090AB120F5B4AF0088FD87 /* LaunchScreen.storyboard */,
+				14090AB420F5B4AF0088FD87 /* Info.plist */,
+				14090AB520F5B4AF0088FD87 /* main.m */,
+			);
+			path = UIPasswordViewDemo;
+			sourceTree = "<group>";
+		};
+		14090ABC20F5B5640088FD87 /* UIPasswordTextView */ = {
+			isa = PBXGroup;
+			children = (
+				14090ABD20F5B5640088FD87 /* UIPasswordTextView.h */,
+				14090ABE20F5B5640088FD87 /* UIPasswordTextView.m */,
+			);
+			path = UIPasswordTextView;
+			sourceTree = "<group>";
+		};
+		14090ABF20F5B5640088FD87 /* UITextViewPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				14090AC120F5B5640088FD87 /* UITextViewPlaceholder.h */,
+				14090AC020F5B5640088FD87 /* UITextViewPlaceholder.m */,
+			);
+			path = UITextViewPlaceholder;
+			sourceTree = "<group>";
+		};
+		14090AC220F5B5650088FD87 /* UIAutoHeightTextView */ = {
+			isa = PBXGroup;
+			children = (
+				14090AC420F5B5650088FD87 /* UIAutoHeightTextView.h */,
+				14090AC320F5B5650088FD87 /* UIAutoHeightTextView.m */,
+			);
+			path = UIAutoHeightTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14090AA220F5B4AA0088FD87 /* UIPasswordViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14090AB920F5B4AF0088FD87 /* Build configuration list for PBXNativeTarget "UIPasswordViewDemo" */;
+			buildPhases = (
+				14090A9F20F5B4AA0088FD87 /* Sources */,
+				14090AA020F5B4AA0088FD87 /* Frameworks */,
+				14090AA120F5B4AA0088FD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIPasswordViewDemo;
+			productName = UIPasswordViewDemo;
+			productReference = 14090AA320F5B4AA0088FD87 /* UIPasswordViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14090A9B20F5B4AA0088FD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = quan;
+				TargetAttributes = {
+					14090AA220F5B4AA0088FD87 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 14090A9E20F5B4AA0088FD87 /* Build configuration list for PBXProject "UIPasswordViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14090A9A20F5B4AA0088FD87;
+			productRefGroup = 14090AA420F5B4AA0088FD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14090AA220F5B4AA0088FD87 /* UIPasswordViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14090AA120F5B4AA0088FD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14090AB320F5B4AF0088FD87 /* LaunchScreen.storyboard in Resources */,
+				14090AB020F5B4AF0088FD87 /* Assets.xcassets in Resources */,
+				14090AAE20F5B4AA0088FD87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14090A9F20F5B4AA0088FD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14090AC520F5B5650088FD87 /* UIPasswordTextView.m in Sources */,
+				14090AAB20F5B4AA0088FD87 /* ViewController.m in Sources */,
+				14090AC620F5B5650088FD87 /* UITextViewPlaceholder.m in Sources */,
+				14090AB620F5B4AF0088FD87 /* main.m in Sources */,
+				14090AA820F5B4AA0088FD87 /* AppDelegate.m in Sources */,
+				14090AC720F5B5650088FD87 /* UIAutoHeightTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14090AAC20F5B4AA0088FD87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14090AAD20F5B4AA0088FD87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14090AB120F5B4AF0088FD87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14090AB220F5B4AF0088FD87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14090AB720F5B4AF0088FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14090AB820F5B4AF0088FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14090ABA20F5B4AF0088FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEUVPHPKU8;
+				INFOPLIST_FILE = UIPasswordViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spring.UIPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14090ABB20F5B4AF0088FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEUVPHPKU8;
+				INFOPLIST_FILE = UIPasswordViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spring.UIPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14090A9E20F5B4AA0088FD87 /* Build configuration list for PBXProject "UIPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14090AB720F5B4AF0088FD87 /* Debug */,
+				14090AB820F5B4AF0088FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14090AB920F5B4AF0088FD87 /* Build configuration list for PBXNativeTarget "UIPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14090ABA20F5B4AF0088FD87 /* Debug */,
+				14090ABB20F5B4AF0088FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14090A9B20F5B4AA0088FD87 /* Project object */;
+}
